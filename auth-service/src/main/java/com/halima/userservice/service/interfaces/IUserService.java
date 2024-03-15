@@ -7,6 +7,6 @@ import java.util.List;
 public interface IUserService {
 
     UserDTO save(UserDTO userDTO);
-    String generateToken(Long id, String username, String email);
-    void validateToken(String token);
+//    String generateToken(Long id, String username, String email);
+//    void validateToken(String token);
 }
